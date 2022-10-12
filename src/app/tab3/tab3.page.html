@@ -1,0 +1,316 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs"></ion-back-button>
+    </ion-buttons>
+    <ion-icon slot="end" [routerLink]="['/slides']" name="information-circle-outline"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+
+    <!-- NHW -->
+    <div class="card">
+      <ion-row>
+        <ion-col size="12">
+          <div style="background: #4d4d4d;" class="imgCard ">
+            <img class="img" style="width: 90%;height: auto;max-height:180px;max-width: 360px;"
+              src="../../assets/proyectos/logoNHW.png" alt="">
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <h4><b> NHW FITNESS </b></h4>
+          <p>
+            Es una tienda línea que ofrece los implementos necesarios para la implementación de un gimnasio en casa.
+          </p>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row>
+        <ion-col size="12">
+          <div class="promotional_ads">
+            <div class="scroll_container">
+
+              <div class="item_scroll">
+                <div (click)="modal(nhw1)" class="img_box ">
+                  <img src="{{nhw1}}" class="crop_img">
+                </div>
+              </div>
+
+
+              <div class="item_scroll">
+                <div (click)="modal(nhw3)" class="img_box ">
+                  <img src="{{nhw3}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll">
+                <div (click)="modal(nhw2)" class="img_box ">
+                  <img src="{{nhw2}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll">
+                <div (click)="modal(nhw4)" class="img_box ">
+                  <img src="{{nhw4}}" class="crop_img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <!-- PASION -->
+
+    <div class="card">
+      <ion-row>
+        <ion-col size="12">
+          <div style="background: #009933;" class="imgCard ">
+            <img class="img" style="width: 90%;height: auto;max-height:180px;max-width: 360px;"
+              src="../../assets/proyectos/Logodeportes.png" alt="">
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <h4><b> PASION DEPORTIVA </b></h4>
+          <p>Es una página web que permite la administración y reserva de diferentes espacios deportivos y sus
+            implementos </p>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row>
+        <ion-col size="12">
+          <div class="promotional_ads">
+            <div class="scroll_container">
+
+              <div class="item_scroll_web">
+                <div (click)="modal(deporte1)" class="img_box ">
+                  <img src="{{deporte1}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(deporte2)" class="img_box ">
+                  <img src="{{deporte2}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(deporte3)" class="img_box ">
+                  <img src="{{deporte3}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(deporte4)" class="img_box ">
+                  <img src="{{deporte4}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(deporte5)" class="img_box ">
+                  <img src="{{deporte5}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(deporte6)" class="img_box ">
+                  <img src="{{deporte6}}" class="crop_img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <!-- Volando -->
+
+    <div class="card">
+      <ion-row>
+        <ion-col size="12">
+          <div style="background: url(../../assets/proyectos/fondoVolando.png);background-size: 100% 100%;"
+            class="imgCard ">
+            <img class="img" style="width: 90%;height: auto;max-height:180px;max-width: 360px;"
+              src="../../assets/proyectos/volando.png" alt="">
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <h4><b> VOLANDO </b></h4>
+          <p>Es una página web donde el usuario podría acceder a diferentes opciones de hospedaje, hacer comparaciones
+            que requiera y realizar la reservación</p>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row>
+        <ion-col size="12">
+          <div class="promotional_ads">
+            <div class="scroll_container">
+
+              <div class="item_scroll_web">
+                <div (click)="modal(volando1)" class="img_box ">
+                  <img src="{{volando1}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(volando2)" class="img_box ">
+                  <img src="{{volando2}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(volando3)" class="img_box ">
+                  <img src="{{volando3}}" class="crop_img">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+
+
+    <!-- farmaday -->
+
+    <div class="card">
+      <ion-row>
+        <ion-col size="12">
+          <div style="background: #2e3e52;" class="imgCard ">
+            <img class="img" style="width: 90%;height: auto;max-height:180px;max-width: 360px;"
+              src="../../assets/proyectos/LOGOFARMA.png" alt="">
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <h4><b> FARMADAY </b></h4>
+          <p>Es una página web que permite realizar inventario y venta de productos farmacéuticos, con su respectiva
+            facturación</p>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row>
+        <ion-col size="12">
+          <div class="promotional_ads">
+            <div class="scroll_container">
+
+              <div class="item_scroll_web">
+                <div (click)="modal(farma1)" class="img_box ">
+                  <img src="{{farma1}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(farma2)" class="img_box ">
+                  <img src="{{farma2}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(farma3)" class="img_box ">
+                  <img src="{{farma3}}" class="crop_img">
+                </div>
+              </div>
+              <div class="item_scroll_web">
+                <div (click)="modal(farma4)" class="img_box ">
+                  <img src="{{farma4}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll_web">
+                <div (click)="modal(farma5)" class="img_box ">
+                  <img src="{{farma5}}" class="crop_img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <!-- oc -->
+
+    <div class="card">
+      <ion-row>
+        <ion-col size="12">
+          <div style="background: #000;" class="imgCard ">
+            <img class="img" style="width: auto;height: 90%;max-height:180px;max-width: 360px;"
+              src="../../assets/proyectos/LOGOOC.png" alt="">
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <h4><b> OC SKATEBOARDING </b></h4>
+          <p>Es una tienda en línea de zapatos de skateboarding la cual cuenta con aplicación para dispositivos móviles
+            y página web.</p>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row>
+        <ion-col size="12">
+          <div class="promotional_ads">
+            <div class="scroll_container">
+
+              <div class="item_scroll">
+                <div (click)="modal(oc1)" class="img_box ">
+                  <img src="{{oc1}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll">
+                <div (click)="modal(oc2)" class="img_box ">
+                  <img src="{{oc2}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll">
+                <div (click)="modal(oc3)" class="img_box ">
+                  <img src="{{oc3}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll">
+                <div (click)="modal(oc4)" class="img_box ">
+                  <img src="{{oc4}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll">
+                <div (click)="modal(oc5)" class="img_box ">
+                  <img src="{{oc5}}" class="crop_img">
+                </div>
+              </div>
+
+              <div class="item_scroll">
+                <div (click)="modal(oc6)" class="img_box ">
+                  <img src="{{oc6}}" class="crop_img">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+  </ion-list>
+</ion-content>

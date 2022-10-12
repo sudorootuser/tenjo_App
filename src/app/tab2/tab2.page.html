@@ -1,0 +1,116 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs"></ion-back-button>
+    </ion-buttons>
+    <ion-icon slot="end" [routerLink]="['/slides']" name="information-circle-outline"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div style="background: #fff;margin: 0;">
+    <img style="height: auto;width: 100%; " src="../../assets/img/Diseño.png" alt="">
+    <div class="text1" style="padding: 0 5%">
+      <p>El área de diseño está encargada de la proyección de la <b> imagen corporativa</b> a partir de la creación de
+        logos,
+        maquetación de <b> páginas web</b> y <b> diseño editorial</b>, plasmando en cada uno de ellos su creatividad
+        para obtener un
+        <b>impacto visual </b>en los usuarios <br>
+      </p><br>
+    </div>
+
+  </div>
+  <ion-list>
+
+    <div class="card ion-text-center text1">
+      <h1><b>Nuestras Herrameintas</b></h1>
+    </div>
+
+    <!-- IONIC -->
+
+    <div class="card" style="border-bottom: 30px solid #ff9900; margin-top: 30px;">
+      <ion-grid fixed>
+        <ion-row class="ion-align-items-center" style="border-bottom: 2px dashed #939393;">
+          <ion-col size="3">
+            <img style="width: 100%; max-width: 150px;" src="../../assets/img/ilustrator.png" alt="">
+          </ion-col>
+          <ion-col size="9">
+            <h1 style="color:#ff9900;">ADOBE ILUSTRATOR</h1>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12">
+            <div class="text2">
+              <p>Es un editor de <b> gráficos vectoriales</b> que se usa mayormente para la creación de <b> logos </b>y
+                <b>maquetación de páginas Web </b>o <b> aplicaciones móviles</b>.
+              </p>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+
+    <!-- PHP -->
+
+    <div class="card" style="border-bottom: 30px solid #31a8ff;">
+      <ion-grid fixed>
+        <ion-row class="ion-align-items-center" style="border-bottom: 2px dashed #939393;">
+          <ion-col size="3">
+            <img style="width: 100%; max-width: 150px;" src="../../assets/img/photoshop.png" alt="">
+          </ion-col>
+          <ion-col size="9">
+            <h1 style="color:#31a8ff;">ADOBE PHOTOSHOP</h1>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12">
+            <div class="text2">
+              <p>Es un <b> editor de imágenes</b>, Usado principalmente para la<b> ilustración</b> y el <b>retoque
+                </b>de fotografías y<b> gráficos</b>
+              </p>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+
+    <!-- WORDPRESS -->
+
+    <div class="card" style="border-bottom: 30px solid #ff3366;">
+      <ion-grid fixed>
+        <ion-row class="ion-align-items-center" style="border-bottom: 2px dashed #939393;">
+          <ion-col size="3">
+            <img style="width: 100%; max-width: 150px;" src="../../assets/img/indesing.png" alt="">
+          </ion-col>
+          <ion-col size="9">
+            <h1 style="color:#ff3366;">ADOBE INDESING</h1>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12">
+            <div class="text2">
+              <p>
+                Es un maquetador destinado para el <b> diseño editorial</b>, por ejemplo:
+              </p>
+              <ul>
+                <li>Libros</li>
+                <li>Periódicos</li>
+                <li>Revistas</li>
+                <li>Catálogos</li>
+                <li>Manuales</li>
+              </ul>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+  </ion-list>
+
+
+</ion-content>

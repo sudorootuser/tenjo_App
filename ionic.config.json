@@ -1,0 +1,7 @@
+{
+  "name": "TENJO",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
